@@ -4,5 +4,11 @@ class Egde {
     this.destination = destination;
     this.weight = weight;
   }
+  getWeight() {
+    return this.weight;
+  }
+  getDestination() {
+    return this.destination;
+  }
 }
 export default Egde;
